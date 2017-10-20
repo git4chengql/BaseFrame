@@ -1,0 +1,87 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.MediaSetting",
+      "name": "media",
+      "type": "com.ysusoft.frame.sys.base.bean.MediaSetting"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.SystemSetting",
+      "name": "system",
+      "type": "com.ysusoft.frame.sys.base.bean.SystemSetting"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.UploadSetting",
+      "name": "upload",
+      "type": "com.ysusoft.frame.sys.base.bean.UploadSetting"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.ResultInfo",
+      "name": "ysusoft",
+      "type": "com.ysusoft.frame.sys.base.bean.ResultInfo"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.MediaSetting",
+      "name": "media.audio",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.MediaSetting",
+      "name": "media.img",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.MediaSetting",
+      "name": "media.video",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.SystemSetting",
+      "name": "system.title",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.UploadSetting",
+      "name": "upload.qhdaudio-server-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.UploadSetting",
+      "name": "upload.qhdimg-server-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.UploadSetting",
+      "name": "upload.qhdvideo-server-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.UploadSetting",
+      "name": "upload.save-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.ResultInfo",
+      "name": "ysusoft.message",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.ResultInfo",
+      "name": "ysusoft.page-data",
+      "type": "org.springframework.data.domain.Page<T>"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.ResultInfo",
+      "name": "ysusoft.result",
+      "type": "java.util.Map<java.lang.String,java.util.List<T>>"
+    },
+    {
+      "sourceType": "com.ysusoft.frame.sys.base.bean.ResultInfo",
+      "name": "ysusoft.success",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}

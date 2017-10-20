@@ -1,0 +1,338 @@
+html,body{
+  min-width: 1200px;
+  height: 100%;
+  background: radial-gradient(at 420px 240px,#0d6ad3, #043363);
+  position: relative;
+}
+#left{
+  width: 699px;
+  height:100%;
+  background-image: url('../img/bg_left.png');
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  left:0px;
+  bottom:0px;
+}
+#right{
+  width: 652px;
+  height:491px;
+  background-image: url('../img/bg_right.png');
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+#main{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.title{
+  width: 140px;
+  height: 506px;
+  position: absolute;
+  left: 112px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.content{
+  width: 760px;
+  height: 370px;
+  position: absolute;
+  right: 33px;
+  top: 50%;
+  transform:translateY(-50%);
+}
+.top{
+  width: 760px;
+  height: 175px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.bottom{
+  width: 760px;
+  height: 175px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.jiance_wrap{
+  width:370px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+#jiance{
+  width:370px;
+  height: 175px;
+  background-color: #7acb0a;
+  border-radius: 2px;
+}
+.img_jiance{
+  width: 74px;
+  height: 75px;
+  text-align: center;
+  background-image: url('../img/jiance.png');
+  position: absolute;
+  left: 60px;
+  bottom: 50px;
+}
+#jiance .text{
+  height: 25px;
+  line-height: 25px;
+  font-size: 24px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  right: 70px;
+  bottom: 75px;
+}
+.chengxin_wrap{
+  width:175px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  left: 390px;
+  top:0px;
+}
+#chengxin{
+  width:175px;
+  height: 175px;
+  background-color: #f75352;
+  border-radius: 2px;
+}
+.img_chengxin{
+  width: 67px;
+  height: 71px;
+  background-image: url('../img/chengxin.png');
+  position: absolute;
+  left: 54px;
+  bottom: 70px;
+}
+#chengxin .text{
+  width: 175px;
+  text-align: center;
+  font-size: 20px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  bottom: 20px;
+}
+.zixun_wrap{
+  width:175px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+#zixun{
+  width:175px;
+  height: 175px;
+  background-color: #00a1b4;
+  border-radius: 2px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+.img_zixun{
+  width: 73px;
+  height: 71px;
+  background-image: url('../img/zixun.png');
+  position: absolute;
+  left: 51px;
+  bottom: 70px;
+}
+#zixun .text{
+  width: 175px;
+  text-align: center;
+  font-size: 20px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  bottom: 20px;
+}
+.tongji_wrap{
+  width:175px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+#tongji{
+  width:175px;
+  height: 175px;
+  background-color: #852dc1;
+  border-radius: 2px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+.img_tongji{
+  width: 79px;
+  height: 72px;
+  background-image: url('../img/tongji.png');
+  position: absolute;
+  left: 48px;
+  bottom: 70px;
+}
+#tongji .text{
+  width: 175px;
+  text-align: center;
+  font-size: 20px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  bottom: 20px;
+}
+.shuju_wrap{
+  width:175px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  left: 195px;
+  top:0px;
+}
+#shuju{
+  width:175px;
+  height: 175px;
+  background-color: #ff9000;
+  border-radius: 2px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+}
+.img_shuju{
+  width: 73px;
+  height: 72px;
+  background-image: url('../img/shuju.png');
+  position: absolute;
+  left: 51px;
+  bottom: 70px;
+}
+#shuju .text{
+  width: 175px;
+  text-align: center;
+  font-size: 20px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  bottom: 20px;
+}
+.pingjia_wrap{
+  width:370px;
+  height: 175px;
+  border-radius: 2px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+#pingjia{
+  width:370px;
+  height: 175px;
+  background-color: #188b3c;
+  border-radius: 2px;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+.img_pingjia{
+  width: 71px;
+  height: 71px;
+  background-image: url('../img/pingjia.png');
+  position: absolute;
+  left: 52px;
+  bottom: 52px;
+}
+#pingjia .text{
+  height: 25px;
+  line-height: 25px;
+  font-size: 24px;
+  color:#fff;
+  font-family: '微软雅黑';
+  position: absolute;
+  right: 40px;
+  bottom: 75px;
+}
+.jiance_wrap:hover #jiance{
+  transform:rotateX(180deg);
+  transition:900ms;
+}
+.jiance_wrap:hover .img_jiance{
+  transform:rotateX(180deg);
+  transition:600ms;
+}
+.jiance_wrap:hover .text{
+  transform:rotateX(180deg);
+  transition: 600ms;
+}
+
+.chengxin_wrap:hover #chengxin{
+  transform:rotateY(180deg);
+  transition:900ms;
+}
+.chengxin_wrap:hover .img_chengxin{
+  transform:rotateY(180deg);
+  transition:600ms;
+}
+.chengxin_wrap:hover .text{
+  transform:rotateY(180deg);
+  transition: 600ms;
+}
+
+.zixun_wrap:hover #zixun{
+   transform:rotateY(180deg);
+   transition:900ms;
+ }
+.zixun_wrap:hover .img_zixun{
+  transform:rotateY(180deg);
+  transition:600ms;
+}
+.zixun_wrap:hover .text{
+  transform:rotateY(180deg);
+  transition: 600ms;
+}
+
+.tongji_wrap:hover #tongji{
+  transform:rotateY(180deg);
+  transition:900ms;
+}
+.tongji_wrap:hover .img_tongji{
+  transform:rotateY(180deg);
+  transition:600ms;
+}
+.tongji_wrap:hover .text{
+  transform:rotateY(180deg);
+  transition: 600ms;
+}
+
+.shuju_wrap:hover #shuju{
+  transform:rotateY(180deg);
+  transition:900ms;
+}
+.shuju_wrap:hover .img_shuju{
+  transform:rotateY(180deg);
+  transition:600ms;
+}
+.shuju_wrap:hover .text{
+  transform:rotateY(180deg);
+  transition: 600ms;
+}
+
+.pingjia_wrap:hover #pingjia{
+  transform:rotateX(180deg);
+  transition:900ms;
+}
+.pingjia_wrap:hover .img_pingjia{
+  transform:rotateX(180deg);
+  transition:600ms;
+}
+.pingjia_wrap:hover .text{
+  transform:rotateX(180deg);
+  transition: 600ms;
+}
