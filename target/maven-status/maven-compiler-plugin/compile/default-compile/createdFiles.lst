@@ -9,7 +9,6 @@ com/ysusoft/knowledge/dao/BehaviorDao.class
 com/ysusoft/YsusoftframeApplication.class
 com/ysusoft/complain/bean/ComplainType.class
 com/ysusoft/knowledge/dao/QuestionDao.class
-com/ysusoft/ServletInitializer.class
 com/ysusoft/frame/sys/util/HttpClientUtil.class
 com/ysusoft/frame/common/nation/dao/NationDao.class
 com/ysusoft/knowledge/bean/Law.class
@@ -18,6 +17,7 @@ com/ysusoft/frame/sys/menu/bean/AllSystem.class
 com/ysusoft/complain/dao/ComplainTypeDao.class
 com/ysusoft/frame/sys/base/web/DeskController.class
 com/ysusoft/frame/sys/user/dao/UserDao.class
+com/ysusoft/frame/sys/util/LogUtil.class
 com/ysusoft/basic/hotel/web/HotelController.class
 com/ysusoft/knowledge/service/SolutionService.class
 com/ysusoft/basic/guides/dao/GuidesDao.class
@@ -25,7 +25,6 @@ com/ysusoft/knowledge/service/ReportService.class
 com/ysusoft/frame/sys/schedule/AutoTaskConfig.class
 com/ysusoft/basic/hotel/bean/Hotel.class
 com/ysusoft/frame/sys/autocode/service/CodeService.class
-com/ysusoft/upload/util/UploadImg.class
 com/ysusoft/frame/sys/department/bean/Department.class
 com/ysusoft/frame/sys/autocode/web/AutoController.class
 com/ysusoft/frame/sys/menu/bean/Menu4Tree.class
@@ -52,6 +51,7 @@ com/ysusoft/basic/travel/service/TravelService.class
 com/ysusoft/basic/faq/service/FAQService.class
 com/ysusoft/complain/bean/Complain.class
 com/ysusoft/basic/faq/web/FAQController.class
+com/ysusoft/frame/sys/base/bean/YsuLog.class
 com/ysusoft/frame/sys/menu/bean/Menu.class
 com/ysusoft/frame/sys/changedesk/bean/ComplainCount.class
 com/ysusoft/frame/sys/exception/SysException.class
@@ -64,16 +64,14 @@ com/ysusoft/basic/shopping/service/ShoppingService.class
 com/ysusoft/frame/event/bean/TaskBean.class
 com/ysusoft/frame/event/utils/SpringContextHolder.class
 com/ysusoft/frame/sys/base/bean/FieldMsg.class
-com/ysusoft/frame/sys/base/filter/UserSecurityInterceptor.class
 com/ysusoft/frame/sys/menu/dao/MenuDao.class
 com/ysusoft/frame/event/utils/ActivityUtil.class
+com/ysusoft/frame/sys/base/interceptor/UserSecurityInterceptor.class
 com/ysusoft/knowledge/dao/LawDao.class
 com/ysusoft/basic/travel/dao/TravelDao.class
 com/ysusoft/basic/guides/web/GuidesController.class
 com/ysusoft/knowledge/service/StandardService.class
 com/ysusoft/knowledge/bean/Behavior.class
-com/ysusoft/upload/web/ImgUploadController.class
-com/ysusoft/upload/util/UploadUtils.class
 com/ysusoft/basic/travel/bean/Travel.class
 com/ysusoft/frame/sys/changedesk/web/ChangeDeskController.class
 com/ysusoft/frame/event/dao/ExecutionDao.class
@@ -82,6 +80,7 @@ com/ysusoft/frame/sys/role/service/RoleService.class
 com/ysusoft/frame/event/web/EventController.class
 com/ysusoft/knowledge/dao/StandardDao.class
 com/ysusoft/frame/common/region/web/RegionController.class
+com/ysusoft/frame/sys/base/web/LogDao.class
 com/ysusoft/knowledge/bean/Insure.class
 com/ysusoft/basic/shopping/dao/ShoppingDao.class
 com/ysusoft/frame/common/nation/service/NationService.class
@@ -131,8 +130,8 @@ com/ysusoft/basic/hotel/dao/HotelDao.class
 com/ysusoft/frame/sys/exception/ViewException.class
 com/ysusoft/frame/common/nation/web/NationController.class
 com/ysusoft/frame/sys/role/dao/RoleDao.class
-com/ysusoft/upload/web/UploadController.class
 com/ysusoft/knowledge/web/KnowledgeController.class
+com/ysusoft/frame/sys/util/WebAppContextUtils.class
 com/ysusoft/basic/guides/service/GuidesService.class
 com/ysusoft/knowledge/service/QuestionService.class
 com/ysusoft/frame/sys/user/web/UserController.class
@@ -143,6 +142,7 @@ com/ysusoft/frame/sys/role/dao/RoleMenuDao.class
 com/ysusoft/complain/web/ComplainController.class
 com/ysusoft/frame/event/bean/ExecutionBean.class
 com/ysusoft/frame/event/dao/TaskDao.class
+com/ysusoft/frame/sys/base/interceptor/LogInterceptor.class
 com/ysusoft/frame/sys/base/bean/Field.class
 com/ysusoft/frame/sys/util/TestSampleUpload4clientHttps$TrustAnyTrustManager.class
 com/ysusoft/frame/sys/util/FtlUtil.class
