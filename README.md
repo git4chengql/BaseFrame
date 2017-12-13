@@ -12,3 +12,6 @@ MySQL
 ```
 EhCache
 ```
+```
+SpringCloud的整合
+```
