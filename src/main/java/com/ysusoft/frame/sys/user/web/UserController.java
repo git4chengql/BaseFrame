@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+import com.ysusoft.frame.sys.base.session.ISession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -33,16 +35,16 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
-	
+
 	@Autowired
 	private RoleService roleService;
 
 	/**
-	 * 
-	* @Title: index 
+	 *
+	* @Title: index
 	* @Description: 用户索引页
-	* @param @return    设定文件 
-	* @return String    返回类型 
+	* @param @return    设定文件
+	* @return String    返回类型
 	* @throws
 	 */
 	@RequestMapping("index")
@@ -51,13 +53,13 @@ public class UserController {
 	}
 
 	/**
-	 * 
-	* @Title: getUserForAddOrUpdate 
+	 *
+	* @Title: getUserForAddOrUpdate
 	* @Description: 新增或者更新用户时，通过此方法获取页面数据
 	* @param @param modelMap
 	* @param @param userId 更新用户的ID
-	* @param @return    设定文件 
-	* @return String    返回类型 
+	* @param @return    设定文件
+	* @return String    返回类型
 	* @throws
 	 */
 	@RequestMapping("getUserForAddOrUpdate")
@@ -93,15 +95,15 @@ public class UserController {
 		}
 		return "sys/userAddOrUpdate";
 	}
-	
+
 	/**
-	 * 
-	* @Title: addUser 
+	 *
+	* @Title: addUser
 	* @Description: 新增和更新用户
 	* @param @param user
 	* @param @return
-	* @param @throws SysException    设定文件 
-	* @return ResultInfo<User>    返回类型 
+	* @param @throws SysException    设定文件
+	* @return ResultInfo<User>    返回类型
 	* @throws
 	 */
 	@RequestMapping("addUser")
@@ -122,24 +124,24 @@ public class UserController {
 		}else{//更新
 			return userService.updateUser(user);
 		}
-	} 
+	}
 
 	/**
-	 * 
-	* @Title: deleteUser 
+	 *
+	* @Title: deleteUser
 	* @Description: 删除用户
 	* @param @param userId
 	* @param @return
-	* @param @throws SysException    设定文件 
-	* @return ResultInfo<User>    返回类型 
+	* @param @throws SysException    设定文件
+	* @return ResultInfo<User>    返回类型
 	* @throws
 	 */
 	@RequestMapping("deleteUser")
 	@ResponseBody
 	public ResultInfo<User> deleteUser(Long userId) throws SysException{
 		return userService.deleteUserByUserId(userId);
-	} 
-	
+	}
+
 	/**
 	 * 分页查询所有角色数据
 	 * @param page 页码
@@ -151,8 +153,8 @@ public class UserController {
 	public Grid<User> getAllUser(@RequestParam("page")int page,@RequestParam("pageSize")int pageSize,@RequestParam("userName")String userName){
 		return userService.getAllUser(userName,page-1,pageSize);
 	}
-	
-	
+
+
 	/**
 	 * 保存用户的菜单权限
 	 * @param request
@@ -163,7 +165,7 @@ public class UserController {
 	public ResultInfo<UserMenu> saveUserMenu(@RequestParam(value = "menus") String menus[],@RequestParam("userId")int userId){
 		return userService.addUserMenu(menus, userId);
 	}
-	
+
 	/**
 	 * 登录
 	 * @return
@@ -177,7 +179,6 @@ public class UserController {
 		if(result.isSuccess()){
 			loginResult.setSuccess(true);
 			loginResult.setMessage("登录成功！");
-			SessionUtils.setSession(request, result.getResult().get("user").get(0));
 		}
 		return  loginResult;
 	}

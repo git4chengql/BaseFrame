@@ -14,12 +14,14 @@ import com.ysusoft.frame.sys.base.utils.SessionUtils;
 import com.ysusoft.frame.sys.exception.SysException;
 import com.ysusoft.frame.sys.menu.service.MenuService;
 import com.ysusoft.frame.sys.user.bean.User;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @author qlcheng
  * @date 2017年4月12日 下午3:37:57
  */
 @Controller
+@ApiIgnore
 public class DeskController {
 
 	@Autowired

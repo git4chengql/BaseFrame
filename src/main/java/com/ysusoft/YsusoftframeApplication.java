@@ -20,7 +20,7 @@ import com.ysusoft.frame.sys.base.interceptor.UserSecurityInterceptor;
 public class YsusoftframeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YsusoftframeApplication.class, args);
+      SpringApplication.run(YsusoftframeApplication.class, args);
     }
 
     @Configuration
